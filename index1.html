@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LyL Patín</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="encabezado">
+
+        <img src="img/Logo1.jpg" alt="Logo LyL Patín" class="logo">
+
+        <h1>🛼 LyL Patín</h1>
+
+    </div>
+
+    <p>Todo para el patinaje artístico</p>
+
+</header>
+
+<section>
+    <h2>Bienvenidos a nuestra tienda</h2>
+    <p>Encontrá todo lo que necesitas para entrenar tranquila.</p>
+</section>
+
+<h2>Nuestros Productos</h2>
+
+<div class="productos">
+
+    <div class="producto">
+        <img src="img/Bolso_Cajon.png" alt="Bolso cajon porta patines"> 
+        <p><strong>ID Producto:</strong> 1</p>
+        <h3>Bolso cajon porta patines</h3>
+        <p>$38.000</p>
+        <button onclick="agregar('bolso cajon porta patin',38000)">Agregar al carrito</button>
+    </div>
+
+    <div class="producto">
+        <img src="img/Ruedas_agarre.png" alt="Ruedas de agarre Sanvio">
+        <p><strong>ID Producto:</strong> 2</p>
+        <h3>Juego de ruedas de agarre Sanvio</h3>
+        <p>$80.000</p>
+        <button onclick="agregar('Juego de ruedas de agarre Sanvio',800000)">Agregar al carrito</button>
+    </div>
+
+    <div class="producto">
+        <img src="img/Frenos_TMG_Kids.png" alt="Frenos TMG Kids">
+        <p><strong>ID Producto:</strong> 3</p>
+        <h3>Frenos TMG Kids</h3>
+        <p>$38.000</p>
+        <button onclick="agregar('Frenos TMG Kids', 38000)">Agregar al carrito</button>
+    </div>
+
+    <div class="producto">
+        <img src="img/neoprene.jpg" alt="Cubre Patines de Neoprene">
+        <p><strong>ID Producto:</strong> 4</p>
+        <h3>Cubre Patines de Neoprene</h3>
+        <p>$22.000</p>
+        <button onclick="agregar('cubre patines de Neoprene',22000)">Agregar al carrito</button>
+    </div>
+
+    <div class="producto">
+        <img src="img/mediascan.png" alt="Medias Cancan Lisas">
+        <p><strong>ID Producto:</strong> 5</p>
+        <h3>Medias Cancán Lisas</h3>
+        <p>$13.000</p>
+        <button onclick="agregar('Medias cancan lisas',13000)">Agregar al carrito </button>
+    </div>
+
+    <div class="producto">
+        <img src="img/rodilleras.png" alt="Rodilleras DRB Olympic">
+        <p><strong>ID Producto:</strong> 6</p>
+        <h3>Rodilleras DRD Olympic</h3>
+        <p>$27.800</p>
+        <button onclick="agregar('Rodilleras DRB Olympic',27800)">Agregar al carrito</button>
+    </div>
+
+    <div class="producto">
+        <img src="img/rulemanes.jpg" alt="Set de 16 rulemanes">
+        <p><strong>ID Producto:</strong> 7</p>
+        <h3>Set de 16 Rulemanes</h3>
+        <p>$28.000</p>
+        <button onclick="agregar('Set de 16 rulemanes',28000)">Agregar al carrito</button>
+    </div>
+
+    <div class="producto">
+        <img src="img/cordones.png" alt="Cordones con lurex">
+        <p><strong>ID Producto:</strong> 8</p>
+        <h3>Cordones con lurex</h3>
+        <p>$7.000</p>
+        <button onclick="agregar('Cordones con lurex',7000)">Agregar al carrito</button>
+    </div>
+
+    <div class="producto">
+        <img src="img/lycra.jpg" alt="Cubrepatines de Lycra">
+        <p><strong>ID Producto:</strong> 9</p>
+        <h3>Cubrepatines de Lycra</h3>
+        <p>$10.000</p>
+        <button onclick="agregar('Cubrapatines de Lycra',10000)">Agregar al carrito</button>
+    </div>
+
+    <div class="producto">
+        <img src="img/anna.jpg" alt="Malliot Clasico Anna">
+        <p><strong>ID Producto:</strong> 10</p>
+        <h3>Malliot Clasico Anna</h3>
+         <p><strong>Categoría:</strong> indumentaria</p>
+        <p>$28.000</p>
+        <button onclick="agregar('Malliot Clasico Anna',28000)">Agregar al carrito</button>
+    </div>
+
+    <div class="producto">
+        <img src="img/Frenos_Randers.png" alt="Frenos Randers">
+        <p><strong>ID Producto:</strong> 11</p>
+        <h3>Frenos Randers</h3>
+        <p><strong>Categoría:</strong> repuestos</p>
+        <p>$30000</p>
+        <button onclick="agregar('Frenos Randers',30000)">Agregar al carrito</button>
+    </div>
+
+    <div class="producto">
+        <img src="img/spinner.png" alt="Spinner de Madera">
+        <p><strong>ID Producto:</strong> 12</p>
+        <h3>Spinner de Madera</h3>
+        <p><strong>Categoría:</strong> bolsos y accesorios</p>
+        <p>$15.000</p>
+        <button onclick="agregar('Spinner de Madera',15000)">Agregar al carrito</button>
+    </div>
+
+    <div class="producto">
+        <img src="img/Bolso_simple.png" alt="Bolso Simple">
+        <p><strong>ID Producto:</strong> 13</p>
+        <h3>Bolso Simple</h3>
+        <p><strong>Categoría:</strong> bolsos y accesorios</p>
+        <p>$25.000</p>
+        <button onclick="agregar ('Bolso Simple',25000)">Agregar al carrito</button>
+    </div>
+
+    <div class="producto">
+        <img src="img/medias_alg.png" alt="Medias algodon patinadora">
+        <p><strong>ID Producto:</strong> 14</p>
+        <h3>Medias algodon patinadora</h3>
+        <p><strong>Categoría:</strong> bolsos y accesorios</p>
+        <p>$5000</p>
+        <button onclick="agregar('Medias algodon patinadora',5000)">Agregar al carrito></button>
+    </div>
+
+</div>
+
+<section class="carrito">
+
+    <h2>🛒 Carrito de Compras</h2>
+
+    <ul id="lista"></ul>
+
+    <h3>Total: $<span id="total">0</span></h3>
+
+</section>
+
+<h3>Total: $<span id="total">0</span></h3>
+<button onclick="vaciarCarrito()">Vaciar carrito</button>
+
+<button onclick="finalizarCompra()">Finalizar compra</button>
+
+<section class="sobre">
+    <h2>Sobre LyL Patín</h2>
+
+    <p>
+        LyL Patín es un emprendimiento dedicado a la venta de repuestos,
+        indumentaria y accesorios para patinaje artístico. Buscamos brindar
+        productos de calidad y atención personalizada para acompañar a cada
+        patinadora en su crecimiento deportivo.
+    </p>
+
+</section>
+
+<footer>
+
+    <p>Seguinos y hacé tu pedido</p>
+
+    <div class="redes">
+
+        <a href="https://www.instagram.com/patin.lyl" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="https://wa.me/5493624164193" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+
+    </div>
+
+    <p>© 2024 LyL Patín</p>
+
+</footer>
+
+</html>
+
+    <script src="script.js"></script>
+</body>
+</html>
